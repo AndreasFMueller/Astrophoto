@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+
+  process.xml == processing of M33 images taken in october/november 2018
+
+  (c) 2018 Prof Dr Andreas Müller, Hochschule Rapperswil
+
+-->
+<process src="./repositories/20181110">
+
+    <writefileimage file="!dark-L.fits" name="dark" dst="cal">
+	<darkimage stddevs="4">
+	    <fileimage file="!image-20181110-00001.fits" name="dark-src-01"/>
+	    <fileimage file="!image-20181110-00002.fits" name="dark-src-02"/>
+	    <fileimage file="!image-20181110-00003.fits" name="dark-src-03"/>
+	    <fileimage file="!image-20181110-00004.fits" name="dark-src-04"/>
+	    <fileimage file="!image-20181110-00005.fits" name="dark-src-05"/>
+	    <fileimage file="!image-20181110-00006.fits" name="dark-src-06"/>
+	    <fileimage file="!image-20181110-00007.fits" name="dark-src-07"/>
+	    <fileimage file="!image-20181110-00008.fits" name="dark-src-08"/>
+	    <fileimage file="!image-20181110-00009.fits" name="dark-src-09"/>
+	    <fileimage file="!image-20181110-00010.fits" name="dark-src-10"/>
+	    <fileimage file="!image-20181110-00011.fits" name="dark-src-11"/>
+	    <fileimage file="!image-20181110-00012.fits" name="dark-src-12"/>
+	    <fileimage file="!image-20181110-00013.fits" name="dark-src-13"/>
+	    <fileimage file="!image-20181110-00014.fits" name="dark-src-14"/>
+	    <fileimage file="!image-20181110-00015.fits" name="dark-src-15"/>
+	    <fileimage file="!image-20181110-00016.fits" name="dark-src-16"/>
+	    <fileimage file="!image-20181110-00017.fits" name="dark-src-17"/>
+	    <fileimage file="!image-20181110-00018.fits" name="dark-src-18"/>
+	    <fileimage file="!image-20181110-00019.fits" name="dark-src-19"/>
+	    <fileimage file="!image-20181110-00180.fits" name="dark-src-20"/>
+	</darkimage>
+    </writefileimage>
+
+</process>
