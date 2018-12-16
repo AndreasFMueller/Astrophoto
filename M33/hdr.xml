@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
-<process>
+<process src="./images" dst="./images">
 
-    <fileimage file="./lrgb-nonan.fits" name="lrgbfile"/>
+    <fileimage file="lrgb.fits" name="lrgbfile"/>
 
-    <writefileimage file="./luminance.fits" name="luminance">
+    <writefileimage file="luminance.fits" name="luminance">
 	<imageplane plane="L">
 	    <image ref="lrgbfile"/>
 	</imageplane>
     </writefileimage>
 
-    <writefileimage file="./destar.fits" name="destar">
+    <writefileimage file="destar.fits" name="destar">
 	<destar radius="10">
 	    <image ref="luminance"/>
 	</destar>
     </writefileimage>
 
-    <writefileimage file="./hdr.fits" name="hdr">
+    <writefileimage file="hdr.fits" name="hdr">
 	<hdr radius="5" deemphasis="0.00015" mask="destar">
 	    <image ref="lrgbfile"/>
 	</hdr>
