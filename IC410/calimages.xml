@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<process src="./repositories/20181012" dst="./cal">
+    <writefileimage file="dark-L-30.fits" name="dark">
+	<darkimage stddevs="4">
+	    <fileimage file="image-20181012-00091.fits" name="dark-src-01"/>
+	    <fileimage file="image-20181012-00092.fits" name="dark-src-02"/>
+	    <fileimage file="image-20181012-00093.fits" name="dark-src-03"/>
+	    <fileimage file="image-20181012-00094.fits" name="dark-src-04"/>
+	    <fileimage file="image-20181012-00095.fits" name="dark-src-05"/>
+	    <fileimage file="image-20181012-00096.fits" name="dark-src-06"/>
+	    <fileimage file="image-20181012-00097.fits" name="dark-src-07"/>
+	    <fileimage file="image-20181012-00098.fits" name="dark-src-08"/>
+	    <fileimage file="image-20181012-00099.fits" name="dark-src-09"/>
+	    <fileimage file="image-20181012-00100.fits" name="dark-src-10"/>
+	</darkimage>
+    </writefileimage>
+</process>
