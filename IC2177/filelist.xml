@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<repositories>
+    <repository name="20181117">
+	<base number="00095"/>
+	<filter name="L">
+	    <file number="00043"/>
+	    <file number="00044"/>
+	    <file number="00045"/>
+	    <file number="00046"/>
+	    <file number="00047"/>
+	    <file number="00048"/>
+	    <file number="00049"/>
+	    <file number="00050"/>
+	    <file number="00051"/>
+	    <file number="00052"/>
+	    <file number="00068"/>
+	    <file number="00069"/>
+<!--
+	    <file number="00070"/>
+-->
+	    <file number="00071" hflip="yes"/>
+	    <file number="00072" hflip="yes"/>
+	    <file number="00073" hflip="yes"/>
+	    <file number="00074" hflip="yes"/>
+	    <file number="00075" hflip="yes"/>
+	    <file number="00076" hflip="yes"/>
+	    <file number="00091" hflip="yes"/>
+<!--
+	    <file number="00092"/>
+-->
+
+	    <file number="00093" hflip="yes"/>
+	    <file number="00094" hflip="yes"/>
+	    <file number="00095" hflip="yes"/>
+	    <file number="00096" hflip="yes"/>
+	    <file number="00097" hflip="yes"/>
+	    <file number="00098" hflip="yes"/>
+	    <file number="00099" hflip="yes"/>
+	    <file number="00114" hflip="yes"/>
+	    <file number="00115" hflip="yes"/>
+	    <file number="00116" hflip="yes"/>
+	    <file number="00117" hflip="yes"/>
+	    <file number="00118" hflip="yes"/>
+<!-- Satellitenspur
+	    <file number="00119"/>
+-->
+	    <file number="00120" hflip="yes"/>
+<!--
+	    <file number="00121"/>
+	    <file number="00122"/>
+	    <file number="00123"/>
+	    <file number="00139"/>
+	    <file number="00140"/>
+	    <file number="00141"/>
+	    <file number="00142"/>
+	    <file number="00143"/>
+	    <file number="00144"/>
+	    <file number="00145"/>
+	    <file number="00146"/>
+	    <file number="00147"/>
+	    <file number="00148"/>
+	    <file number="00164"/>
+	    <file number="00165"/>
+	    <file number="00166"/>
+	    <file number="00167"/>
+-->
+	</filter>
+	<filter name="R">
+	    <file number="00053"/>
+	    <file number="00054"/>
+	    <file number="00055"/>
+	    <file number="00056"/>
+	    <file number="00057"/>
+	    <file number="00077" hflip="yes"/>
+	    <file number="00078" hflip="yes"/>
+	    <file number="00079" hflip="yes"/>
+	    <file number="00080" hflip="yes"/>
+	    <file number="00081" hflip="yes"/>
+	    <file number="00100" hflip="yes"/>
+	    <file number="00101" hflip="yes"/>
+	    <file number="00102" hflip="yes"/>
+	    <file number="00103" hflip="yes"/>
+	    <file number="00104" hflip="yes"/>
+<!--
+	    <file number="00124"/>
+	    <file number="00125"/>
+	    <file number="00126"/>
+	    <file number="00127"/>
+	    <file number="00128"/>
+	    <file number="00149"/>
+	    <file number="00150"/>
+	    <file number="00151"/>
+	    <file number="00152"/>
+	    <file number="00153"/>
+-->
+	</filter>
+	<filter name="G">
+	    <file number="00058"/>
+	    <file number="00059"/>
+	    <file number="00060"/>
+	    <file number="00061"/>
+	    <file number="00062"/>
+	    <file number="00082" hflip="yes"/>
+	    <file number="00083" hflip="yes"/>
+	    <file number="00084" hflip="yes"/>
+	    <file number="00085" hflip="yes"/>
+	    <file number="00086" hflip="yes"/>
+<!--
+	    <file number="00105" hflip="yes"/>
+-->
+	    <file number="00106" hflip="yes"/>
+	    <file number="00107" hflip="yes"/>
+	    <file number="00108" hflip="yes"/>
+	    <file number="00109" hflip="yes"/>
+<!--
+	    <file number="00129"/>
+	    <file number="00130"/>
+	    <file number="00131"/>
+	    <file number="00132"/>
+	    <file number="00133"/>
+	    <file number="00154"/>
+	    <file number="00155"/>
+	    <file number="00156"/>
+	    <file number="00157"/>
+	    <file number="00158"/>
+-->
+	</filter>
+	<filter name="B">
+	    <file number="00063"/>
+	    <file number="00064"/>
+	    <file number="00065"/>
+	    <file number="00066"/>
+	    <file number="00067"/>
+	    <file number="00087" hflip="yes"/>
+<!--
+	    <file number="00088"/>
+-->
+	    <file number="00089" hflip="yes"/>
+	    <file number="00090" hflip="yes"/>
+	    <file number="00110" hflip="yes"/>
+<!--
+	    <file number="00111"/>
+-->
+	    <file number="00112" hflip="yes"/>
+	    <file number="00113" hflip="yes"/>
+<!--
+	    <file number="00134"/>
+	    <file number="00135"/>
+	    <file number="00136"/>
+	    <file number="00137"/>
+	    <file number="00138"/>
+	    <file number="00159"/>
+	    <file number="00160"/>
+	    <file number="00161"/>
+	    <file number="00162"/>
+	    <file number="00163"/>
+-->
+	</filter>
+    </repository>
+</repositories>

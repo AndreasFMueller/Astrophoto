@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<process>
+    <writefileimage file="./images/lrgb.fits">
+	<lrgb>
+	    <fileimage file="./stacked/stacked-L.fits"/>
+	    <color offsets="-310,0,160" scales="1.0,1,1.15">
+		<fileimage file="./images/rgb.fits"/>
+	    </color>
+	</lrgb>
+    </writefileimage>
+</process>
