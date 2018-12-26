@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<process src="./images" dst="./images">
+    <writefileimage file="color.fits" name="color">
+	<colorclamp minimum="100" maximum="12000">
+	    <fileimage file="lrgb.fits" name="lrgb"/>
+	</colorclamp>
+    </writefileimage>
+</process>
