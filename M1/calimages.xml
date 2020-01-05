@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!--
+
+  calimages.xml == calibration images for the M101 project
+
+  (c) 2019 Prof Dr Andreas Müller, Hochschule Rapperswil
+-->
+
+<process src="./repositories" dst="./cal">
+    <writefileimage file="dark.fits" name="dark" src="20191229">
+	<darkimage stddevs="4">
+	    <fileimage file="image-20191229-00075.fits" name="dark-src-00"/>
+	    <fileimage file="image-20191229-00076.fits" name="dark-src-01"/>
+	    <fileimage file="image-20191229-00077.fits" name="dark-src-02"/>
+	    <fileimage file="image-20191229-00078.fits" name="dark-src-03"/>
+	    <fileimage file="image-20191229-00079.fits" name="dark-src-04"/>
+	    <fileimage file="image-20191229-00080.fits" name="dark-src-05"/>
+	    <fileimage file="image-20191229-00081.fits" name="dark-src-06"/>
+	    <fileimage file="image-20191229-00082.fits" name="dark-src-07"/>
+	    <fileimage file="image-20191229-00083.fits" name="dark-src-08"/>
+	    <fileimage file="image-20191229-00084.fits" name="dark-src-09"/>
+	    <fileimage file="image-20191229-00085.fits" name="dark-src-10"/>
+	    <fileimage file="image-20191229-00086.fits" name="dark-src-11"/>
+	    <fileimage file="image-20191229-00087.fits" name="dark-src-12"/>
+	    <fileimage file="image-20191229-00088.fits" name="dark-src-13"/>
+	</darkimage>
+    </writefileimage>
+    <writefileimage file="bias.fits" name="bias" src="20191229">
+	<darkimage stddevs="4">
+	    <fileimage file="image-20191229-00060.fits" name="bias-src-00"/>
+	    <fileimage file="image-20191229-00061.fits" name="bias-src-01"/>
+	    <fileimage file="image-20191229-00062.fits" name="bias-src-02"/>
+	    <fileimage file="image-20191229-00063.fits" name="bias-src-03"/>
+	    <fileimage file="image-20191229-00064.fits" name="bias-src-04"/>
+	    <fileimage file="image-20191229-00065.fits" name="bias-src-05"/>
+	    <fileimage file="image-20191229-00066.fits" name="bias-src-06"/>
+	    <fileimage file="image-20191229-00067.fits" name="bias-src-07"/>
+	    <fileimage file="image-20191229-00068.fits" name="bias-src-08"/>
+	    <fileimage file="image-20191229-00069.fits" name="bias-src-09"/>
+	    <fileimage file="image-20191229-00070.fits" name="bias-src-10"/>
+	    <fileimage file="image-20191229-00071.fits" name="bias-src-11"/>
+	    <fileimage file="image-20191229-00072.fits" name="bias-src-12"/>
+	    <fileimage file="image-20191229-00073.fits" name="bias-src-13"/>
+	    <fileimage file="image-20191229-00074.fits" name="bias-src-14"/>
+	</darkimage>
+    </writefileimage>
+    <writefileimage file="flat.fits" name="flat" src="20191229">
+	<flatimage dark="bias">
+	    <fileimage file="image-20191229-00040.fits" name="flat-src-00"/>
+	    <fileimage file="image-20191229-00041.fits" name="flat-src-01"/>
+	    <fileimage file="image-20191229-00042.fits" name="flat-src-02"/>
+	    <fileimage file="image-20191229-00043.fits" name="flat-src-03"/>
+	    <fileimage file="image-20191229-00044.fits" name="flat-src-04"/>
+	    <fileimage file="image-20191229-00045.fits" name="flat-src-05"/>
+	    <fileimage file="image-20191229-00046.fits" name="flat-src-06"/>
+	    <fileimage file="image-20191229-00047.fits" name="flat-src-07"/>
+	    <fileimage file="image-20191229-00048.fits" name="flat-src-08"/>
+	    <fileimage file="image-20191229-00049.fits" name="flat-src-09"/>
+	    <fileimage file="image-20191229-00050.fits" name="flat-src-10"/>
+	    <fileimage file="image-20191229-00051.fits" name="flat-src-11"/>
+	    <fileimage file="image-20191229-00052.fits" name="flat-src-12"/>
+	    <fileimage file="image-20191229-00053.fits" name="flat-src-13"/>
+	    <fileimage file="image-20191229-00054.fits" name="flat-src-14"/>
+	    <fileimage file="image-20191229-00055.fits" name="flat-src-15"/>
+	    <fileimage file="image-20191229-00056.fits" name="flat-src-16"/>
+	    <fileimage file="image-20191229-00057.fits" name="flat-src-17"/>
+	    <fileimage file="image-20191229-00058.fits" name="flat-src-18"/>
+	    <fileimage file="image-20191229-00059.fits" name="flat-src-19"/>
+	</flatimage>
+    </writefileimage>
+</process>
+

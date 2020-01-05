@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<process>
+    <fileimage name="psf" file="images/psf.fits"/>
+
+    <writefileimage file="images/luminance.fits" name="luminance">
+	<imageplane plane="L">
+	    <fileimage file="stacked/stacked2.fits" name="stack"/>
+	</imageplane>
+    </writefileimage>
+
+    <writefileimage file="images/deconvolved.fits" name="deconvolved">
+	<deconvolution stddev="4" iterations="4" method="fastvancittert" name="deconvolution">
+	    <image ref="luminance"/>
+	</deconvolution>
+    </writefileimage>
+
+    <writefileimage file="images/m1.fits">
+	<lrgb name="lrgb">
+	    <image ref="deconvolved"/>
+	    <fileimage file="images/rgb.fits" name="rgb"/>
+	</lrgb>
+    </writefileimage>
+</process>
