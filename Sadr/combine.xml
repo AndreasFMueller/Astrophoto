@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<process>
+  <writefileimage file="./images/rgb.fits">
+    <rgb name="RGB">
+      <fileimage file="./stacked/stacked-O.fits" name="O"/>
+      <fileimage file="./stacked/stacked-H.fits" name="H"/>
+      <fileimage file="./stacked/stacked-S.fits" name="S"/>
+    </rgb>
+  </writefileimage>
+</process>
