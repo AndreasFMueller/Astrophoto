@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!--
+
+  calimages.xml == calibration images for the M101 project
+
+  (c) 2019 Prof Dr Andreas Müller, Hochschule Rapperswil
+-->
+
+<process src="./repositories" dst="./cal">
+    <writefileimage file="dark.fits" name="dark" src="20191225">
+	<darkimage stddevs="4">
+	    <fileimage file="image-20191225-00394.fits" name="dark-src-00"/>
+	    <fileimage file="image-20191225-00395.fits" name="dark-src-01"/>
+	    <fileimage file="image-20191225-00396.fits" name="dark-src-02"/>
+	    <fileimage file="image-20191225-00397.fits" name="dark-src-03"/>
+	    <fileimage file="image-20191225-00398.fits" name="dark-src-04"/>
+	    <fileimage file="image-20191225-00399.fits" name="dark-src-05"/>
+	    <fileimage file="image-20191225-00400.fits" name="dark-src-06"/>
+	    <fileimage file="image-20191225-00401.fits" name="dark-src-07"/>
+	    <fileimage file="image-20191225-00402.fits" name="dark-src-08"/>
+	    <fileimage file="image-20191225-00403.fits" name="dark-src-09"/>
+	    <fileimage file="image-20191225-00404.fits" name="dark-src-10"/>
+	    <fileimage file="image-20191225-00405.fits" name="dark-src-11"/>
+	    <fileimage file="image-20191225-00406.fits" name="dark-src-12"/>
+	    <fileimage file="image-20191225-00407.fits" name="dark-src-13"/>
+	    <fileimage file="image-20191225-00408.fits" name="dark-src-14"/>
+	    <fileimage file="image-20191225-00409.fits" name="dark-src-15"/>
+	    <fileimage file="image-20191225-00410.fits" name="dark-src-16"/>
+	    <fileimage file="image-20191225-00411.fits" name="dark-src-17"/>
+	    <fileimage file="image-20191225-00412.fits" name="dark-src-18"/>
+	    <fileimage file="image-20191225-00413.fits" name="dark-src-19"/>
+	    <fileimage file="image-20191225-00414.fits" name="dark-src-20"/>
+	    <fileimage file="image-20191225-00415.fits" name="dark-src-21"/>
+	</darkimage>
+    </writefileimage>
+    <writefileimage file="bias.fits" name="bias" src="20191225">
+	<darkimage stddevs="4">
+	    <fileimage file="image-20191225-00456.fits" name="bias-src-00"/>
+	    <fileimage file="image-20191225-00457.fits" name="bias-src-01"/>
+	    <fileimage file="image-20191225-00458.fits" name="bias-src-02"/>
+	    <fileimage file="image-20191225-00459.fits" name="bias-src-03"/>
+	    <fileimage file="image-20191225-00460.fits" name="bias-src-04"/>
+	    <fileimage file="image-20191225-00461.fits" name="bias-src-05"/>
+	    <fileimage file="image-20191225-00462.fits" name="bias-src-06"/>
+	    <fileimage file="image-20191225-00463.fits" name="bias-src-07"/>
+	    <fileimage file="image-20191225-00464.fits" name="bias-src-08"/>
+	    <fileimage file="image-20191225-00465.fits" name="bias-src-09"/>
+	    <fileimage file="image-20191225-00466.fits" name="bias-src-10"/>
+	    <fileimage file="image-20191225-00467.fits" name="bias-src-11"/>
+	    <fileimage file="image-20191225-00468.fits" name="bias-src-12"/>
+	    <fileimage file="image-20191225-00469.fits" name="bias-src-13"/>
+	    <fileimage file="image-20191225-00470.fits" name="bias-src-14"/>
+	    <fileimage file="image-20191225-00471.fits" name="bias-src-15"/>
+	    <fileimage file="image-20191225-00472.fits" name="bias-src-16"/>
+	    <fileimage file="image-20191225-00473.fits" name="bias-src-17"/>
+	    <fileimage file="image-20191225-00474.fits" name="bias-src-18"/>
+	    <fileimage file="image-20191225-00475.fits" name="bias-src-19"/>
+	    <fileimage file="image-20191225-00476.fits" name="bias-src-20"/>
+	    <fileimage file="image-20191225-00477.fits" name="bias-src-21"/>
+	    <fileimage file="image-20191225-00478.fits" name="bias-src-22"/>
+	    <fileimage file="image-20191225-00479.fits" name="bias-src-23"/>
+	    <fileimage file="image-20191225-00480.fits" name="bias-src-24"/>
+	    <fileimage file="image-20191225-00481.fits" name="bias-src-25"/>
+	    <fileimage file="image-20191225-00482.fits" name="bias-src-26"/>
+	    <fileimage file="image-20191225-00483.fits" name="bias-src-27"/>
+	    <fileimage file="image-20191225-00484.fits" name="bias-src-28"/>
+	    <fileimage file="image-20191225-00485.fits" name="bias-src-29"/>
+	    <fileimage file="image-20191225-00486.fits" name="bias-src-30"/>
+	    <fileimage file="image-20191225-00487.fits" name="bias-src-31"/>
+	    <fileimage file="image-20191225-00488.fits" name="bias-src-32"/>
+	    <fileimage file="image-20191225-00489.fits" name="bias-src-33"/>
+	    <fileimage file="image-20191225-00490.fits" name="bias-src-34"/>
+	    <fileimage file="image-20191225-00491.fits" name="bias-src-35"/>
+	    <fileimage file="image-20191225-00492.fits" name="bias-src-36"/>
+	    <fileimage file="image-20191225-00493.fits" name="bias-src-37"/>
+	    <fileimage file="image-20191225-00494.fits" name="bias-src-38"/>
+	    <fileimage file="image-20191225-00495.fits" name="bias-src-39"/>
+	</darkimage>
+    </writefileimage>
+    <writefileimage file="flat.fits" name="flat" src="20191225">
+	<flatimage dark="bias">
+	    <fileimage file="image-20191225-00416.fits" name="flat-src-00"/>
+	    <fileimage file="image-20191225-00417.fits" name="flat-src-01"/>
+	    <fileimage file="image-20191225-00418.fits" name="flat-src-02"/>
+	    <fileimage file="image-20191225-00419.fits" name="flat-src-03"/>
+	    <fileimage file="image-20191225-00420.fits" name="flat-src-04"/>
+	    <fileimage file="image-20191225-00421.fits" name="flat-src-05"/>
+	    <fileimage file="image-20191225-00422.fits" name="flat-src-06"/>
+	    <fileimage file="image-20191225-00423.fits" name="flat-src-07"/>
+	    <fileimage file="image-20191225-00424.fits" name="flat-src-08"/>
+	    <fileimage file="image-20191225-00425.fits" name="flat-src-09"/>
+	    <fileimage file="image-20191225-00426.fits" name="flat-src-10"/>
+	    <fileimage file="image-20191225-00427.fits" name="flat-src-11"/>
+	    <fileimage file="image-20191225-00428.fits" name="flat-src-12"/>
+	    <fileimage file="image-20191225-00429.fits" name="flat-src-13"/>
+	    <fileimage file="image-20191225-00430.fits" name="flat-src-14"/>
+	    <fileimage file="image-20191225-00431.fits" name="flat-src-15"/>
+	    <fileimage file="image-20191225-00432.fits" name="flat-src-16"/>
+	    <fileimage file="image-20191225-00433.fits" name="flat-src-17"/>
+	    <fileimage file="image-20191225-00434.fits" name="flat-src-18"/>
+	    <fileimage file="image-20191225-00435.fits" name="flat-src-19"/>
+	    <fileimage file="image-20191225-00436.fits" name="flat-src-20"/>
+	    <fileimage file="image-20191225-00437.fits" name="flat-src-21"/>
+	    <fileimage file="image-20191225-00438.fits" name="flat-src-22"/>
+	    <fileimage file="image-20191225-00439.fits" name="flat-src-23"/>
+	    <fileimage file="image-20191225-00440.fits" name="flat-src-24"/>
+	    <fileimage file="image-20191225-00441.fits" name="flat-src-25"/>
+	    <fileimage file="image-20191225-00442.fits" name="flat-src-26"/>
+	    <fileimage file="image-20191225-00443.fits" name="flat-src-27"/>
+	    <fileimage file="image-20191225-00444.fits" name="flat-src-28"/>
+	    <fileimage file="image-20191225-00445.fits" name="flat-src-29"/>
+	    <fileimage file="image-20191225-00446.fits" name="flat-src-30"/>
+	    <fileimage file="image-20191225-00447.fits" name="flat-src-31"/>
+	    <fileimage file="image-20191225-00448.fits" name="flat-src-32"/>
+	    <fileimage file="image-20191225-00449.fits" name="flat-src-33"/>
+	    <fileimage file="image-20191225-00450.fits" name="flat-src-34"/>
+	    <fileimage file="image-20191225-00451.fits" name="flat-src-35"/>
+	    <fileimage file="image-20191225-00452.fits" name="flat-src-36"/>
+	    <fileimage file="image-20191225-00453.fits" name="flat-src-37"/>
+	    <fileimage file="image-20191225-00454.fits" name="flat-src-38"/>
+	    <fileimage file="image-20191225-00455.fits" name="flat-src-39"/>
+	</flatimage>
+    </writefileimage>
+</process>
+
