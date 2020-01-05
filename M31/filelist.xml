@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<filelist>
+    <file name="image-20191225-00001.fits"/>
+    <file name="image-20191225-00002.fits"/>
+    <file name="image-20191225-00003.fits"/>
+    <file name="image-20191225-00004.fits"/>
+    <file name="image-20191225-00005.fits"/>
+    <file name="image-20191225-00006.fits"/>
+    <file name="image-20191225-00007.fits"/>
+    <file name="image-20191225-00008.fits"/>
+    <file name="image-20191225-00009.fits"/>
+    <file name="image-20191225-00010.fits"/>
+    <file name="image-20191225-00011.fits"/>
+    <file name="image-20191225-00012.fits"/>
+    <file name="image-20191225-00013.fits"/>
+    <file name="image-20191225-00014.fits"/>
+    <file name="image-20191225-00015.fits"/>
+    <file name="image-20191225-00016.fits"/>
+    <file name="image-20191225-00017.fits"/>
+    <file name="image-20191225-00018.fits"/>
+    <file name="image-20191225-00019.fits"/>
+    <file name="image-20191225-00020.fits"/>
+    <file name="image-20191225-00021.fits"/>
+    <file name="image-20191225-00022.fits"/>
+    <file name="image-20191225-00023.fits"/>
+    <file name="image-20191225-00024.fits"/>
+    <file name="image-20191225-00025.fits"/>
+    <!-- very faint satellite trace -->
+    <file name="image-20191225-00026.fits"/>
+    <!-- 2 rather obvious satellite trace
+    <file name="image-20191225-00027.fits"/>
+    <file name="image-20191225-00028.fits"/>
+    <file name="image-20191225-00029.fits"/>
+    <file name="image-20191225-00030.fits"/>
+    <file name="image-20191225-00031.fits"/>
+    <file name="image-20191225-00032.fits"/>
+    <file name="image-20191225-00033.fits"/>
+    <file name="image-20191225-00034.fits"/>
+    -->
+    <file name="image-20191225-00035.fits"/>
+    <file name="image-20191225-00036.fits"/>
+    <file name="image-20191225-00037.fits"/>
+    <file name="image-20191225-00038.fits"/>
+    <file name="image-20191225-00039.fits"/>
+    <file name="image-20191225-00040.fits"/>
+    <file name="image-20191225-00041.fits"/>
+    <file name="image-20191225-00042.fits"/>
+    <file name="image-20191225-00043.fits"/>
+    <file name="image-20191225-00044.fits"/>
+    <file name="image-20191225-00045.fits"/>
+    <file name="image-20191225-00046.fits"/>
+    <file name="image-20191225-00047.fits"/>
+    <file name="image-20191225-00048.fits"/>
+    <file name="image-20191225-00049.fits"/>
+    <file name="image-20191225-00050.fits"/>
+    <file name="image-20191225-00051.fits"/>
+    <file name="image-20191225-00052.fits"/>
+    <file name="image-20191225-00053.fits"/>
+    <file name="image-20191225-00054.fits"/>
+    <file name="image-20191225-00055.fits"/>
+    <file name="image-20191225-00056.fits"/>
+    <file name="image-20191225-00057.fits"/>
+    <file name="image-20191225-00058.fits"/>
+    <file name="image-20191225-00059.fits"/>
+    <file name="image-20191225-00060.fits"/>
+    <!-- too bright
+    <file name="image-20191225-00061.fits"/>
+    <file name="image-20191225-00062.fits"/>
+    <file name="image-20191225-00063.fits"/>
+    <file name="image-20191225-00064.fits"/>
+    <file name="image-20191225-00065.fits"/>
+    <file name="image-20191225-00066.fits"/>
+    <file name="image-20191225-00067.fits"/>
+    -->
+    <file name="image-20191225-00068.fits"/>
+    <file name="image-20191225-00069.fits"/>
+    <file name="image-20191225-00070.fits"/>
+    <file name="image-20191225-00071.fits"/>
+    <file name="image-20191225-00072.fits"/>
+    <file name="image-20191225-00073.fits"/>
+    <!-- strange lighting in 74/75 
+    <file name="image-20191225-00074.fits"/>
+    <file name="image-20191225-00075.fits"/>
+    -->
+    <file name="image-20191225-00076.fits"/>
+    <file name="image-20191225-00077.fits"/>
+    <file name="image-20191225-00078.fits"/>
+    <!-- faint satellite trace in 79/80
+    <file name="image-20191225-00079.fits"/>
+    <file name="image-20191225-00080.fits"/>
+    -->
+    <file name="image-20191225-00081.fits"/>
+    <file name="image-20191225-00082.fits"/>
+    <file name="image-20191225-00083.fits"/>
+    <file name="image-20191225-00084.fits"/>
+    <file name="image-20191225-00085.fits"/>
+    <file name="image-20191225-00086.fits"/>
+    <file name="image-20191225-00087.fits"/>
+    <file name="image-20191225-00088.fits"/>
+    <file name="image-20191225-00089.fits"/>
+    <!-- overly bright
+    <file name="image-20191225-00090.fits"/>
+    -->
+    <file name="image-20191225-00091.fits"/>
+    <file name="image-20191225-00092.fits"/>
+    <!-- overly bright
+    <file name="image-20191225-00093.fits"/>
+    -->
+    <file name="image-20191225-00094.fits"/>
+    <file name="image-20191225-00095.fits"/>
+    <file name="image-20191225-00096.fits"/>
+    <!-- unusably bright 97-99
+    <file name="image-20191225-00097.fits"/>
+    <file name="image-20191225-00098.fits"/>
+    <file name="image-20191225-00099.fits"/>
+    -->
+    <file name="image-20191225-00100.fits"/>
+    <!-- too bright 101-102
+    <file name="image-20191225-00101.fits"/>
+    <file name="image-20191225-00102.fits"/>
+    -->
+    <file name="image-20191225-00103.fits"/>
+    <file name="image-20191225-00104.fits"/>
+    <file name="image-20191225-00105.fits"/>
+    <file name="image-20191225-00106.fits"/>
+    <file name="image-20191225-00107.fits"/>
+    <file name="image-20191225-00108.fits"/>
+    <file name="image-20191225-00109.fits"/>
+    <file name="image-20191225-00110.fits"/>
+    <!-- bright 111-112
+    <file name="image-20191225-00111.fits"/>
+    <file name="image-20191225-00112.fits"/>
+    -->
+    <file name="image-20191225-00113.fits"/>
+    <file name="image-20191225-00114.fits"/>
+    <file name="image-20191225-00115.fits"/>
+    <file name="image-20191225-00116.fits"/>
+    <file name="image-20191225-00117.fits"/>
+    <file name="image-20191225-00118.fits"/>
+    <file name="image-20191225-00119.fits"/>
+    <file name="image-20191225-00120.fits"/>
+    <!-- faint trace -->
+    <file name="image-20191225-00121.fits"/>
+    <file name="image-20191225-00122.fits"/>
+    <file name="image-20191225-00123.fits"/>
+    <file name="image-20191225-00124.fits"/>
+    <file name="image-20191225-00125.fits"/>
+    <file name="image-20191225-00126.fits"/>
+    <file name="image-20191225-00127.fits"/>
+    <file name="image-20191225-00128.fits"/>
+    <file name="image-20191225-00129.fits"/>
+    <file name="image-20191225-00130.fits"/>
+    <file name="image-20191225-00131.fits"/>
+    <file name="image-20191225-00132.fits"/>
+    <file name="image-20191225-00133.fits"/>
+    <file name="image-20191225-00134.fits"/>
+    <file name="image-20191225-00135.fits"/>
+    <file name="image-20191225-00136.fits"/>
+    <file name="image-20191225-00137.fits"/>
+    <file name="image-20191225-00138.fits"/>
+    <file name="image-20191225-00139.fits"/>
+    <file name="image-20191225-00140.fits"/>
+    <file name="image-20191225-00141.fits"/>
+    <file name="image-20191225-00142.fits"/>
+    <file name="image-20191225-00143.fits"/>
+    <file name="image-20191225-00144.fits"/>
+    <file name="image-20191225-00145.fits"/>
+    <file name="image-20191225-00146.fits"/>
+    <file name="image-20191225-00147.fits"/>
+    <file name="image-20191225-00148.fits"/>
+    <file name="image-20191225-00149.fits"/>
+    <file name="image-20191225-00150.fits"/>
+    <file name="image-20191225-00151.fits"/>
+    <file name="image-20191225-00152.fits"/>
+    <file name="image-20191225-00153.fits"/>
+    <!-- faint trace 154-156 (keep) -->
+    <file name="image-20191225-00154.fits"/>
+    <file name="image-20191225-00155.fits"/>
+    <file name="image-20191225-00156.fits"/>
+    <file name="image-20191225-00157.fits"/>
+    <file name="image-20191225-00158.fits"/>
+    <file name="image-20191225-00159.fits"/>
+    <file name="image-20191225-00160.fits"/>
+    <file name="image-20191225-00161.fits"/>
+    <file name="image-20191225-00162.fits"/>
+    <file name="image-20191225-00163.fits"/>
+    <file name="image-20191225-00164.fits"/>
+    <file name="image-20191225-00165.fits"/>
+    <file name="image-20191225-00166.fits"/>
+    <file name="image-20191225-00167.fits"/>
+    <file name="image-20191225-00168.fits"/>
+    <file name="image-20191225-00169.fits"/>
+    <file name="image-20191225-00170.fits"/>
+    <file name="image-20191225-00171.fits"/>
+    <file name="image-20191225-00172.fits"/>
+    <file name="image-20191225-00173.fits"/>
+    <file name="image-20191225-00174.fits"/>
+    <!-- pretty obvious tumbling satellite
+    <file name="image-20191225-00175.fits"/>
+    -->
+    <file name="image-20191225-00176.fits"/>
+    <file name="image-20191225-00177.fits"/>
+    <file name="image-20191225-00178.fits"/>
+    <file name="image-20191225-00179.fits"/>
+    <file name="image-20191225-00180.fits"/>
+    <file name="image-20191225-00181.fits"/>
+    <file name="image-20191225-00182.fits"/>
+    <file name="image-20191225-00183.fits"/>
+    <file name="image-20191225-00184.fits"/>
+    <file name="image-20191225-00185.fits"/>
+    <file name="image-20191225-00186.fits"/>
+    <file name="image-20191225-00187.fits"/>
+    <file name="image-20191225-00188.fits"/>
+    <file name="image-20191225-00189.fits"/>
+    <file name="image-20191225-00190.fits"/>
+</filelist>

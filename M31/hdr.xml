@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<process src="./images" dst="./images">
+
+    <fileimage file="rgb.fits" name="rgbfile"/>
+
+    <writefileimage file="destar.fits" name="destar">
+	<destar radius="30">
+	    <image ref="rgbfile"/>
+	</destar>
+    </writefileimage>
+
+    <writefileimage file="hdr.fits" name="hdr">
+	<hdr radius="10" deemphasis="0.0005" mask="destar">
+	    <image ref="rgbfile"/>
+	</hdr>
+    </writefileimage>
+
+</process>

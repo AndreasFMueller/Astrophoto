@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<process>
+    <writefileimage file="./images/gamma.fits">
+	<gamma minimum="270" maximum="1200" gamma="0.5">
+	    <fileimage file="./images/rgb.fits"/>
+	</gamma>
+    </writefileimage>
+</process>
