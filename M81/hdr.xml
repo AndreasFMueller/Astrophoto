@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<process src="./images" dst="./images">
+
+    <fileimage file="lrgb.fits" name="lrgbfile"/>
+
+    <fileimage file="./stacked/stacked-L.fits" name="luminance"/>
+
+    <writefileimage file="destar.fits" name="destar">
+	<destar radius="10">
+	    <image ref="luminance"/>
+	</destar>
+    </writefileimage>
+
+    <writefileimage file="hdr.fits" name="hdr">
+	<hdr radius="4" deemphasis="0.0025" mask="destar">
+	    <image ref="lrgbfile"/>
+	</hdr>
+    </writefileimage>
+
+</process>

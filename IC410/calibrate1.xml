@@ -1,0 +1,840 @@
+<?xml version="1.0"?>
+<process dst="./calibrated" src="./repositories/">
+  <fileimage file="./cal/dark-L.fits" name="dark-L"/>
+  <fileimage file="./cal/flat-L.fits" name="flat-L"/>
+  <fileimage file="./cal/dark-RGB.fits" name="dark-R"/>
+  <fileimage file="./cal/flat-R.fits" name="flat-R"/>
+  <fileimage file="./cal/dark-RGB.fits" name="dark-G"/>
+  <fileimage file="./cal/flat-G.fits" name="flat-G"/>
+  <fileimage file="./cal/dark-RGB.fits" name="dark-B"/>
+  <fileimage file="./cal/flat-B.fits" name="flat-B"/>
+  <fileimage file="./cal/dark-alpha.fits" name="dark-alpha"/>
+  <fileimage file="./cal/flat-alpha.fits" name="flat-alpha"/>
+  <group src="./repositories/20181109">
+    <writefileimage file="image-20181109-00001.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00001.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00002.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00002.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00003.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00003.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00004.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00004.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00005.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00005.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00006.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00006.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00007.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00007.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00008.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00008.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00009.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00009.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00010.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00010.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00011.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00011.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00012.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00012.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00013.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00013.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00014.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00014.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00015.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00015.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00016.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00016.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00017.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00017.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00018.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00018.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00019.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00019.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00020.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00020.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00021.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00021.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00022.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00022.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00023.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00023.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00024.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00024.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00025.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00025.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00026.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00026.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00027.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00027.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00028.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00028.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00029.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00029.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00030.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00030.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00031.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00031.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00032.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00032.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00033.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00033.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00034.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00034.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00035.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00035.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00036.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00036.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00037.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00037.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00038.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00038.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00039.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00039.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00040.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00040.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00041.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00041.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00042.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00042.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00043.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00043.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00044.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00044.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00045.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00045.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00046.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00046.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00047.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00047.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00048.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00048.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00049.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00049.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00050.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00050.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00051.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00051.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00052.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00052.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00053.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00053.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00054.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00054.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00055.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00055.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00056.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00056.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00057.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00057.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00058.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00058.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00059.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00059.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00060.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00060.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00151.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00151.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00152.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00152.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00153.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00153.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00154.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00154.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00155.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00155.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00156.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00156.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00157.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00157.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00158.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00158.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00159.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00159.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00160.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00160.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00161.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00161.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00162.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00162.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00163.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00163.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00164.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00164.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00165.fits">
+      <calibrate flip="yes" dark="dark-L" flat="flat-L">
+        <fileimage file="image-20181109-00165.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00061.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00061.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00062.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00062.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00063.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00063.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00064.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00064.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00065.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00065.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00066.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00066.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00067.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00067.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00068.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00068.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00069.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00069.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00070.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00070.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00071.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00071.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00072.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00072.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00073.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00073.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00074.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00074.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00075.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00075.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00076.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00076.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00077.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00077.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00078.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00078.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00079.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00079.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00080.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00080.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00081.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00081.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00082.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00082.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00083.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00083.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00084.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00084.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00085.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00085.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00086.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00086.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00087.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00087.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00088.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00088.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00089.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00089.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00090.fits">
+      <calibrate flip="yes" dark="dark-R" flat="flat-R">
+        <fileimage file="image-20181109-00090.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00091.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00091.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00092.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00092.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00093.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00093.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00094.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00094.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00095.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00095.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00096.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00096.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00097.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00097.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00098.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00098.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00099.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00099.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00100.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00100.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00101.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00101.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00102.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00102.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00103.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00103.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00104.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00104.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00105.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00105.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00106.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00106.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00107.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00107.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00108.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00108.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00109.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00109.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00110.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00110.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00111.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00111.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00112.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00112.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00113.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00113.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00114.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00114.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00115.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00115.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00116.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00116.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00117.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00117.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00118.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00118.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00119.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00119.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00120.fits">
+      <calibrate flip="yes" dark="dark-G" flat="flat-G">
+        <fileimage file="image-20181109-00120.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00121.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00121.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00122.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00122.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00123.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00123.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00124.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00124.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00125.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00125.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00126.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00126.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00127.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00127.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00128.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00128.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00129.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00129.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00130.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00130.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00131.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00131.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00132.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00132.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00133.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00133.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00134.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00134.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00135.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00135.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00136.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00136.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00137.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00137.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00138.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00138.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00139.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00139.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00140.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00140.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00141.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00141.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00142.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00142.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00143.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00143.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00144.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00144.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00145.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00145.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00146.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00146.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00147.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00147.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00148.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00148.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00149.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00149.fits"/>
+      </calibrate>
+    </writefileimage>
+    <writefileimage file="image-20181109-00150.fits">
+      <calibrate flip="yes" dark="dark-B" flat="flat-B">
+        <fileimage file="image-20181109-00150.fits"/>
+      </calibrate>
+    </writefileimage>
+  </group>
+</process>
