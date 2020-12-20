@@ -81,10 +81,10 @@
 	<flatimage dark="bias-L">
 	    <fileimage file="image-20200122-00105.fits" name="flat-L-src-0"/>
 	    <fileimage file="image-20200122-00106.fits" name="flat-L-src-1"/>
-	<!--
+<!--
 	    <fileimage file="image-20200122-00107.fits" name="flat-L-src-2"/>
 	    <fileimage file="image-20200122-00108.fits" name="flat-L-src-3"/>
-	  -->
+-->
 	    <fileimage file="image-20200122-00109.fits" name="flat-L-src-4"/>
 	    <fileimage file="image-20200122-00110.fits" name="flat-L-src-5"/>
 	    <fileimage file="image-20200122-00111.fits" name="flat-L-src-6"/>
@@ -103,10 +103,10 @@
 	    <fileimage file="image-20200122-00119.fits" name="flat-R-src-4"/>
 	    <fileimage file="image-20200122-00120.fits" name="flat-R-src-5"/>
 	    <fileimage file="image-20200122-00121.fits" name="flat-R-src-6"/>
-	<!--
+<!--
 	    <fileimage file="image-20200122-00122.fits" name="flat-R-src-7"/>
-          -->
 	    <fileimage file="image-20200122-00123.fits" name="flat-R-src-8"/>
+-->
 	    <fileimage file="image-20200122-00124.fits" name="flat-R-src-9"/>
 	</flatimage>
     </writefileimage>
@@ -136,10 +136,10 @@
 	    <fileimage file="image-20200122-00140.fits" name="flat-B-src-5"/>
 	    <fileimage file="image-20200122-00141.fits" name="flat-B-src-6"/>
 	    <fileimage file="image-20200122-00142.fits" name="flat-B-src-7"/>
-	<!--
+<!--
 	    <fileimage file="image-20200122-00143.fits" name="flat-B-src-8"/>
 	    <fileimage file="image-20200122-00144.fits" name="flat-B-src-9"/>
-	  -->
+-->
 	</flatimage>
     </writefileimage>
 
