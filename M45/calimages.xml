@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!--
+
+  calimages.xml == calibration images for the M45 project
+
+  (c) 2019 Prof Dr Andreas Müller, Hochschule Rapperswil
+-->
+
+<process src="./repositories" dst="./cal">
+    <writefileimage file="dark.fits" name="dark" src="20241230">
+	<darkimage stddevs="4">
+	    <fileimage file="image-20241230-00015.fits" name="dark-src-00"/>
+	    <fileimage file="image-20241230-00016.fits" name="dark-src-01"/>
+	    <fileimage file="image-20241230-00017.fits" name="dark-src-02"/>
+	    <fileimage file="image-20241230-00018.fits" name="dark-src-03"/>
+	    <fileimage file="image-20241230-00094.fits" name="dark-src-04"/>
+	    <fileimage file="image-20241230-00095.fits" name="dark-src-05"/>
+	    <fileimage file="image-20241230-00096.fits" name="dark-src-06"/>
+	    <fileimage file="image-20241230-00097.fits" name="dark-src-07"/>
+	    <fileimage file="image-20241230-00098.fits" name="dark-src-08"/>
+	    <fileimage file="image-20241230-00099.fits" name="dark-src-09"/>
+	</darkimage>
+    </writefileimage>
+    <!--
+	bias frame for gain 192
+    -->
+    <writefileimage file="bias.fits" name="bias" src="20250103">
+	<darkimage stddevs="4">
+	    <fileimage file="image-20250103-00171.fits" name="bias-src-00"/>
+	    <fileimage file="image-20250103-00172.fits" name="bias-src-01"/>
+	    <fileimage file="image-20250103-00173.fits" name="bias-src-02"/>
+	    <fileimage file="image-20250103-00174.fits" name="bias-src-03"/>
+	    <fileimage file="image-20250103-00175.fits" name="bias-src-04"/>
+	    <fileimage file="image-20250103-00176.fits" name="bias-src-05"/>
+	    <fileimage file="image-20250103-00177.fits" name="bias-src-06"/>
+	    <fileimage file="image-20250103-00178.fits" name="bias-src-07"/>
+	    <fileimage file="image-20250103-00179.fits" name="bias-src-08"/>
+	    <fileimage file="image-20250103-00180.fits" name="bias-src-09"/>
+	    <fileimage file="image-20250103-00181.fits" name="bias-src-10"/>
+	    <fileimage file="image-20250103-00182.fits" name="bias-src-11"/>
+	    <fileimage file="image-20250103-00183.fits" name="bias-src-12"/>
+	    <fileimage file="image-20250103-00184.fits" name="bias-src-13"/>
+	    <fileimage file="image-20250103-00185.fits" name="bias-src-14"/>
+	    <fileimage file="image-20250103-00186.fits" name="bias-src-15"/>
+	    <fileimage file="image-20250103-00187.fits" name="bias-src-16"/>
+	    <fileimage file="image-20250103-00188.fits" name="bias-src-17"/>
+	    <fileimage file="image-20250103-00189.fits" name="bias-src-18"/>
+	    <fileimage file="image-20250103-00190.fits" name="bias-src-19"/>
+	    <fileimage file="image-20250103-00191.fits" name="bias-src-20"/>
+	    <fileimage file="image-20250103-00192.fits" name="bias-src-21"/>
+	    <fileimage file="image-20250103-00193.fits" name="bias-src-22"/>
+	    <fileimage file="image-20250103-00194.fits" name="bias-src-23"/>
+	    <fileimage file="image-20250103-00195.fits" name="bias-src-24"/>
+	    <fileimage file="image-20250103-00196.fits" name="bias-src-25"/>
+	    <fileimage file="image-20250103-00197.fits" name="bias-src-26"/>
+	    <fileimage file="image-20250103-00198.fits" name="bias-src-27"/>
+	    <fileimage file="image-20250103-00199.fits" name="bias-src-28"/>
+	    <fileimage file="image-20250103-00200.fits" name="bias-src-29"/>
+	</darkimage>
+    </writefileimage>
+    <writefileimage file="flat.fits" name="flat" src="20250103">
+	<flatimage dark="bias">
+	    <fileimage file="image-20250103-00141.fits" name="flat-src-00"/>
+	    <fileimage file="image-20250103-00142.fits" name="flat-src-01"/>
+	    <fileimage file="image-20250103-00143.fits" name="flat-src-02"/>
+	    <fileimage file="image-20250103-00144.fits" name="flat-src-03"/>
+	    <fileimage file="image-20250103-00145.fits" name="flat-src-04"/>
+	    <fileimage file="image-20250103-00146.fits" name="flat-src-05"/>
+	    <fileimage file="image-20250103-00147.fits" name="flat-src-06"/>
+	    <fileimage file="image-20250103-00148.fits" name="flat-src-07"/>
+	    <fileimage file="image-20250103-00149.fits" name="flat-src-08"/>
+	    <fileimage file="image-20250103-00150.fits" name="flat-src-09"/>
+	    <fileimage file="image-20250103-00151.fits" name="flat-src-10"/>
+	    <fileimage file="image-20250103-00152.fits" name="flat-src-11"/>
+	    <fileimage file="image-20250103-00153.fits" name="flat-src-12"/>
+	    <fileimage file="image-20250103-00154.fits" name="flat-src-13"/>
+	    <fileimage file="image-20250103-00155.fits" name="flat-src-14"/>
+	    <fileimage file="image-20250103-00156.fits" name="flat-src-15"/>
+	    <fileimage file="image-20250103-00157.fits" name="flat-src-16"/>
+	    <fileimage file="image-20250103-00158.fits" name="flat-src-17"/>
+	    <fileimage file="image-20250103-00159.fits" name="flat-src-18"/>
+	    <fileimage file="image-20250103-00160.fits" name="flat-src-19"/>
+	    <fileimage file="image-20250103-00161.fits" name="flat-src-20"/>
+	    <fileimage file="image-20250103-00162.fits" name="flat-src-21"/>
+	    <fileimage file="image-20250103-00163.fits" name="flat-src-22"/>
+	    <fileimage file="image-20250103-00164.fits" name="flat-src-23"/>
+	    <fileimage file="image-20250103-00165.fits" name="flat-src-24"/>
+	    <fileimage file="image-20250103-00166.fits" name="flat-src-25"/>
+	    <fileimage file="image-20250103-00167.fits" name="flat-src-26"/>
+	    <fileimage file="image-20250103-00168.fits" name="flat-src-27"/>
+	    <fileimage file="image-20250103-00169.fits" name="flat-src-28"/>
+	    <fileimage file="image-20250103-00170.fits" name="flat-src-29"/>
+	</flatimage>
+    </writefileimage>
+</process>
