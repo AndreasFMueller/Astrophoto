@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--
+
+  process.xml == processing of M33 images taken in october/novemrer 2018
+
+  (c) 2018 Prof Dr Andreas Müller, Hochschule Rapperswil
+
+-->
+<process src="./repositories/20181110" dst="./cal">
+
+    <writefileimage file="bias-L.fits" name="bias-L">
+	<biasimage stddevs="4">
+	    <fileimage file="image-20181110-00040.fits" name="bias-L-src-01"/>
+	    <fileimage file="image-20181110-00041.fits" name="bias-L-src-02"/>
+	    <fileimage file="image-20181110-00042.fits" name="bias-L-src-03"/>
+	    <fileimage file="image-20181110-00043.fits" name="bias-L-src-04"/>
+	    <fileimage file="image-20181110-00044.fits" name="bias-L-src-05"/>
+	    <fileimage file="image-20181110-00045.fits" name="bias-L-src-06"/>
+	    <fileimage file="image-20181110-00046.fits" name="bias-L-src-07"/>
+	    <fileimage file="image-20181110-00047.fits" name="bias-L-src-08"/>
+	    <fileimage file="image-20181110-00048.fits" name="bias-L-src-09"/>
+	    <fileimage file="image-20181110-00049.fits" name="bias-L-src-10"/>
+	    <fileimage file="image-20181110-00050.fits" name="bias-L-src-11"/>
+	    <fileimage file="image-20181110-00051.fits" name="bias-L-src-12"/>
+	    <fileimage file="image-20181110-00052.fits" name="bias-L-src-13"/>
+	    <fileimage file="image-20181110-00053.fits" name="bias-L-src-14"/>
+	    <fileimage file="image-20181110-00054.fits" name="bias-L-src-15"/>
+	    <fileimage file="image-20181110-00055.fits" name="bias-L-src-16"/>
+	    <fileimage file="image-20181110-00056.fits" name="bias-L-src-17"/>
+	    <fileimage file="image-20181110-00057.fits" name="bias-L-src-18"/>
+	    <fileimage file="image-20181110-00058.fits" name="bias-L-src-19"/>
+	    <fileimage file="image-20181110-00059.fits" name="bias-L-src-20"/>
+	</biasimage>
+    </writefileimage>
+
+    <writefileimage file="flat-L.fits" name="flat-L">
+	<flatimage dark="bias-L">
+	    <fileimage file="image-20181110-00020.fits" name="flat-L-src-01"/>
+	    <fileimage file="image-20181110-00021.fits" name="flat-L-src-02"/>
+	    <fileimage file="image-20181110-00022.fits" name="flat-L-src-03"/>
+	    <fileimage file="image-20181110-00023.fits" name="flat-L-src-04"/>
+	    <fileimage file="image-20181110-00024.fits" name="flat-L-src-05"/>
+	    <fileimage file="image-20181110-00025.fits" name="flat-L-src-06"/>
+	    <fileimage file="image-20181110-00026.fits" name="flat-L-src-07"/>
+	    <fileimage file="image-20181110-00027.fits" name="flat-L-src-08"/>
+	    <fileimage file="image-20181110-00028.fits" name="flat-L-src-09"/>
+	    <fileimage file="image-20181110-00029.fits" name="flat-L-src-10"/>
+	    <fileimage file="image-20181110-00030.fits" name="flat-L-src-11"/>
+	    <fileimage file="image-20181110-00031.fits" name="flat-L-src-12"/>
+	    <fileimage file="image-20181110-00032.fits" name="flat-L-src-13"/>
+	    <fileimage file="image-20181110-00033.fits" name="flat-L-src-14"/>
+	    <fileimage file="image-20181110-00034.fits" name="flat-L-src-15"/>
+	    <fileimage file="image-20181110-00035.fits" name="flat-L-src-16"/>
+	    <fileimage file="image-20181110-00036.fits" name="flat-L-src-17"/>
+	    <fileimage file="image-20181110-00037.fits" name="flat-L-src-18"/>
+	    <fileimage file="image-20181110-00038.fits" name="flat-L-src-19"/>
+	    <fileimage file="image-20181110-00039.fits" name="flat-L-src-20"/>
+	</flatimage>
+    </writefileimage>
+
+</process>

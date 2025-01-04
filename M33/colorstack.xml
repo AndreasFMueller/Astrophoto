@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<process src="./calibrated" dst="./stacked">
+<!--
+  <fileimage name="base-L" file="image-20181105-00010.fits"/>
+  <writefileimage file="stacked-L.fits">
+    <stack patchsize="512" baseimage="base-L">
+      <fileimage file="image-20181105-00001.fits"/>
+      <fileimage file="image-20181105-00002.fits"/>
+      <fileimage file="image-20181105-00003.fits"/>
+      <fileimage file="image-20181105-00004.fits"/>
+      <fileimage file="image-20181105-00005.fits"/>
+      <fileimage file="image-20181105-00006.fits"/>
+      <fileimage file="image-20181105-00007.fits"/>
+      <fileimage file="image-20181105-00008.fits"/>
+      <fileimage file="image-20181105-00009.fits"/>
+      <fileimage file="image-20181105-00010.fits"/>
+      <fileimage file="image-20181105-00011.fits"/>
+      <fileimage file="image-20181105-00012.fits"/>
+      <fileimage file="image-20181105-00013.fits"/>
+      <fileimage file="image-20181105-00014.fits"/>
+      <fileimage file="image-20181105-00015.fits"/>
+      <fileimage file="image-20181105-00016.fits"/>
+      <fileimage file="image-20181105-00017.fits"/>
+      <fileimage file="image-20181105-00018.fits"/>
+      <fileimage file="image-20181105-00019.fits"/>
+      <fileimage file="image-20181105-00020.fits"/>
+      <fileimage file="image-20181105-00021.fits"/>
+      <fileimage file="image-20181105-00022.fits"/>
+      <fileimage file="image-20181105-00023.fits"/>
+      <fileimage file="image-20181105-00024.fits"/>
+      <fileimage file="image-20181105-00025.fits"/>
+      <fileimage file="image-20181105-00026.fits"/>
+      <fileimage file="image-20181105-00027.fits"/>
+      <fileimage file="image-20181105-00028.fits"/>
+      <fileimage file="image-20181105-00029.fits"/>
+      <fileimage file="image-20181105-00030.fits"/>
+      <fileimage file="image-20181105-00031.fits"/>
+      <fileimage file="image-20181105-00032.fits"/>
+      <fileimage file="image-20181105-00033.fits"/>
+      <fileimage file="image-20181105-00034.fits"/>
+      <fileimage file="image-20181105-00035.fits"/>
+      <fileimage file="image-20181105-00036.fits"/>
+      <fileimage file="image-20181105-00037.fits"/>
+      <fileimage file="image-20181105-00038.fits"/>
+      <fileimage file="image-20181105-00039.fits"/>
+      <fileimage file="image-20181105-00040.fits"/>
+      <fileimage file="image-20181105-00041.fits"/>
+      <fileimage file="image-20181105-00042.fits"/>
+      <fileimage file="image-20181105-00043.fits"/>
+      <fileimage file="image-20181105-00044.fits"/>
+      <fileimage file="image-20181105-00045.fits"/>
+      <fileimage file="image-20181105-00046.fits"/>
+      <fileimage file="image-20181105-00047.fits"/>
+      <fileimage file="image-20181105-00048.fits"/>
+      <fileimage file="image-20181105-00049.fits"/>
+      <fileimage file="image-20181105-00050.fits"/>
+      <fileimage file="image-20181105-00051.fits"/>
+      <fileimage file="image-20181105-00052.fits"/>
+      <fileimage file="image-20181105-00053.fits"/>
+      <fileimage file="image-20181105-00054.fits"/>
+      <fileimage file="image-20181105-00055.fits"/>
+      <fileimage file="image-20181105-00056.fits"/>
+      <fileimage file="image-20181105-00057.fits"/>
+      <fileimage file="image-20181105-00058.fits"/>
+      <fileimage file="image-20181105-00059.fits"/>
+      <fileimage file="image-20181105-00060.fits"/>
+      <fileimage file="image-20181105-00151.fits"/>
+      <fileimage file="image-20181105-00152.fits"/>
+      <fileimage file="image-20181105-00153.fits"/>
+      <fileimage file="image-20181105-00154.fits"/>
+      <fileimage file="image-20181105-00155.fits"/>
+      <fileimage file="image-20181105-00156.fits"/>
+      <fileimage file="image-20181105-00157.fits"/>
+      <fileimage file="image-20181105-00158.fits"/>
+      <fileimage file="image-20181105-00159.fits"/>
+      <fileimage file="image-20181105-00160.fits"/>
+      <fileimage file="image-20181105-00161.fits"/>
+      <fileimage file="image-20181105-00162.fits"/>
+      <fileimage file="image-20181105-00163.fits"/>
+      <fileimage file="image-20181105-00164.fits"/>
+      <fileimage file="image-20181105-00165.fits"/>
+      <fileimage file="image-20181105-00166.fits"/>
+      <fileimage file="image-20181105-00167.fits"/>
+      <fileimage file="image-20181105-00168.fits"/>
+      <fileimage file="image-20181105-00169.fits"/>
+      <fileimage file="image-20181105-00170.fits"/>
+      <fileimage file="image-20181105-00171.fits"/>
+      <fileimage file="image-20181105-00172.fits"/>
+      <fileimage file="image-20181105-00173.fits"/>
+      <fileimage file="image-20181105-00174.fits"/>
+      <fileimage file="image-20181105-00175.fits"/>
+      <fileimage file="image-20181105-00176.fits"/>
+      <fileimage file="image-20181105-00177.fits"/>
+      <fileimage file="image-20181105-00178.fits"/>
+      <fileimage file="image-20181105-00179.fits"/>
+      <fileimage file="image-20181105-00180.fits"/>
+    </stack>
+  </writefileimage>
+  <transform upscale="1" name="base-R">
+    <fileimage file="image-20181105-00070.fits"/>
+  </transform>
+  <writefileimage file="stacked-R.fits">
+    <stack patchsize="512" baseimage="base-R">
+      <transform upscale="1">
+        <fileimage file="image-20181105-00061.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00062.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00063.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00064.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00065.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00066.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00067.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00068.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00069.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00070.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00071.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00072.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00073.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00074.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00075.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00076.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00077.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00078.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00079.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00080.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00081.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00082.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00083.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00084.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00085.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00086.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00087.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00088.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00089.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00090.fits"/>
+      </transform>
+    </stack>
+  </writefileimage>
+  <transform upscale="1" name="base-G">
+    <fileimage file="image-20181105-00101.fits"/>
+  </transform>
+  <writefileimage file="stacked-G.fits">
+    <stack patchsize="512" baseimage="base-G">
+      <transform upscale="1">
+        <fileimage file="image-20181105-00091.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00092.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00093.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00094.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00095.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00096.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00098.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00099.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00100.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00101.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00102.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00103.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00104.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00105.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00106.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00107.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00108.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00109.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00110.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00111.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00112.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00113.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00114.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00115.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00116.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00117.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00118.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00119.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00120.fits"/>
+      </transform>
+    </stack>
+  </writefileimage>
+-->
+  <transform upscale="1" name="base-B">
+    <fileimage file="image-20181105-00130.fits"/>
+  </transform>
+  <writefileimage file="stacked-B.fits">
+    <stack patchsize="512" baseimage="base-B">
+      <transform upscale="1">
+        <fileimage file="image-20181105-00121.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00122.fits"/>
+      </transform>
+<!--
+      <transform upscale="1">
+        <fileimage file="image-20181105-00123.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00124.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00125.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00126.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00127.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00128.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00129.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00130.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00131.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00132.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00133.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00134.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00135.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00136.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00137.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00138.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00139.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00140.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00141.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00142.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00143.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00144.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00145.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00146.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00147.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00148.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00149.fits"/>
+      </transform>
+      <transform upscale="1">
+        <fileimage file="image-20181105-00150.fits"/>
+      </transform>
+-->
+    </stack>
+  </writefileimage>
+</process>

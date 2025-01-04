@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<process src="./stacked" dst="./images">
+    <writefileimage file="luminance.fits" name="luminance">
+	<gamma minimum="1200" maximum="1000000" gamma="0.1">
+	    <fileimage file="stacked-L.fits" name="l"/>
+	</gamma>
+    </writefileimage>
+</process>

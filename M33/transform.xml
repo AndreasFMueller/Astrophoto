@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<process>
+
+<writefileimage file="./test.fits">
+    <transform downscale="1">
+	<fileimage file="./stacked/stacked-L.fits"/>
+    </transform>
+</writefileimage>
+
+</process>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<process dst="./calibrated" src="./repositories/20200122">
+  <fileimage file="./cal/dark-LRGB.fits" name="dark-L"/>
+  <fileimage file="./cal/flat-L.fits" name="flat-L"/>
+  <fileimage file="./cal/flat-R.fits" name="flat-R"/>
+  <fileimage file="./cal/flat-G.fits" name="flat-G"/>
+  <fileimage file="./cal/flat-B.fits" name="flat-B"/>
+  <fileimage file="./cal/dark-alpha.fits" name="dark-A"/>
+  <fileimage file="./cal/flat-alpha.fits" name="flat-A"/>
+  <group src="./repositories/20200122">
+
+    <writefileimage file="image-20200122-00001.fits"><calibrate dark="dark-L" flat="flat-L"><fileimage file="image-20200122-00001.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00005.fits"><calibrate dark="dark-L" flat="flat-L"><fileimage file="image-20200122-00005.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00009.fits"><calibrate dark="dark-L" flat="flat-L"><fileimage file="image-20200122-00009.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00013.fits"><calibrate dark="dark-L" flat="flat-L"><fileimage file="image-20200122-00013.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00017.fits"><calibrate dark="dark-L" flat="flat-L"><fileimage file="image-20200122-00017.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00021.fits"><calibrate dark="dark-L" flat="flat-L"><fileimage file="image-20200122-00021.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00025.fits"><calibrate dark="dark-L" flat="flat-L"><fileimage file="image-20200122-00025.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00029.fits"><calibrate dark="dark-L" flat="flat-L"><fileimage file="image-20200122-00029.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00033.fits"><calibrate dark="dark-L" flat="flat-L"><fileimage file="image-20200122-00033.fits"/></calibrate></writefileimage>
+
+    <writefileimage file="image-20200122-00002.fits"><calibrate dark="dark-L" flat="flat-R"><fileimage file="image-20200122-00002.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00006.fits"><calibrate dark="dark-L" flat="flat-R"><fileimage file="image-20200122-00006.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00010.fits"><calibrate dark="dark-L" flat="flat-R"><fileimage file="image-20200122-00010.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00014.fits"><calibrate dark="dark-L" flat="flat-R"><fileimage file="image-20200122-00014.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00018.fits"><calibrate dark="dark-L" flat="flat-R"><fileimage file="image-20200122-00018.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00022.fits"><calibrate dark="dark-L" flat="flat-R"><fileimage file="image-20200122-00022.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00026.fits"><calibrate dark="dark-L" flat="flat-R"><fileimage file="image-20200122-00026.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00030.fits"><calibrate dark="dark-L" flat="flat-R"><fileimage file="image-20200122-00030.fits"/></calibrate></writefileimage>
+
+    <writefileimage file="image-20200122-00003.fits"><calibrate dark="dark-L" flat="flat-G"><fileimage file="image-20200122-00003.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00007.fits"><calibrate dark="dark-L" flat="flat-G"><fileimage file="image-20200122-00007.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00011.fits"><calibrate dark="dark-L" flat="flat-G"><fileimage file="image-20200122-00011.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00015.fits"><calibrate dark="dark-L" flat="flat-G"><fileimage file="image-20200122-00015.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00019.fits"><calibrate dark="dark-L" flat="flat-G"><fileimage file="image-20200122-00019.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00023.fits"><calibrate dark="dark-L" flat="flat-G"><fileimage file="image-20200122-00023.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00027.fits"><calibrate dark="dark-L" flat="flat-G"><fileimage file="image-20200122-00027.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00031.fits"><calibrate dark="dark-L" flat="flat-G"><fileimage file="image-20200122-00031.fits"/></calibrate></writefileimage>
+
+    <writefileimage file="image-20200122-00004.fits"><calibrate dark="dark-L" flat="flat-B"><fileimage file="image-20200122-00004.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00008.fits"><calibrate dark="dark-L" flat="flat-B"><fileimage file="image-20200122-00008.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00012.fits"><calibrate dark="dark-L" flat="flat-B"><fileimage file="image-20200122-00012.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00016.fits"><calibrate dark="dark-L" flat="flat-B"><fileimage file="image-20200122-00016.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00020.fits"><calibrate dark="dark-L" flat="flat-B"><fileimage file="image-20200122-00020.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00024.fits"><calibrate dark="dark-L" flat="flat-B"><fileimage file="image-20200122-00024.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00028.fits"><calibrate dark="dark-L" flat="flat-B"><fileimage file="image-20200122-00028.fits"/></calibrate></writefileimage>
+    <writefileimage file="image-20200122-00032.fits"><calibrate dark="dark-L" flat="flat-B"><fileimage file="image-20200122-00032.fits"/></calibrate></writefileimage>
+
+  </group>
+</process>
