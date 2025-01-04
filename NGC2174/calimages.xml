@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+
+  calimages.xml == calibration images for the M101 project
+
+  (c) 2019 Prof Dr Andreas Müller, Hochschule Rapperswil
+-->
+
+<process src="./repositories" dst="./cal">
+    <writefileimage file="dark.fits" name="dark" src="20241231">
+	<darkimage stddevs="4">
+	    <fileimage file="image-20241231-00001.fits" name="dark-src-00"/>
+	    <fileimage file="image-20241231-00002.fits" name="dark-src-01"/>
+	    <fileimage file="image-20241231-00003.fits" name="dark-src-02"/>
+	    <fileimage file="image-20241231-00004.fits" name="dark-src-03"/>
+	    <fileimage file="image-20241231-00005.fits" name="dark-src-04"/>
+	    <fileimage file="image-20241231-00006.fits" name="dark-src-05"/>
+	    <fileimage file="image-20241231-00007.fits" name="dark-src-06"/>
+	    <fileimage file="image-20241231-00008.fits" name="dark-src-07"/>
+	    <fileimage file="image-20241231-00009.fits" name="dark-src-08"/>
+	    <fileimage file="image-20241231-00010.fits" name="dark-src-09"/>
+	    <fileimage file="image-20241231-00011.fits" name="dark-src-10"/>
+	    <fileimage file="image-20241231-00012.fits" name="dark-src-11"/>
+	</darkimage>
+    </writefileimage>
+</process>
+
