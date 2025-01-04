@@ -1,0 +1,35 @@
+#
+# Makefile -- build the M45 project
+#
+# (c) 2019 Prof Dr Andreas Müller, Hochschule Rapperswil
+#
+tools=/usr/local/astro/bin
+
+stack:	stacked/stacked.fits
+
+stacked/stacked.fits:	stack.xml calibrated/timestamp
+	if [ ! -d stacked ]; then mkdir stacked; fi
+	$(tools)/astroprocess --debug --verbose stack.xml 2>&1 \
+		| tee stack.log
+
+stack.xml:	stack.xsl filelist.xml
+	xsltproc stack.xsl filelist.xml > stack.xml
+
+calibrate:	calibrated/timestamp
+
+calibrated/timestamp:	calibrate.xml cal/dark.fits
+	if [ ! -d calibrated ]; then mkdir calibrated; fi
+	$(tools)/astroprocess --debug --verbose calibrate.xml 2>&1 \
+		| tee calibrate.log
+	touch calibrated/timestamp
+
+calimages: cal/dark.fits cal/bias.fits cal/flat.fits
+
+cal/dark.fits cal/bias.fits cal/flat.fits:	calimages.xml
+	if [ ! -d cal ]; then mkdir cal; fi
+	$(tools)/astroprocess --debug --verbose calimages.xml 2>&1 \
+		| tee calimages.log
+
+calibrate.xml:	calibrate.xsl filelist.xml
+	xsltproc calibrate.xsl filelist.xml > calibrate.xml
+
