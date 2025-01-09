@@ -11,7 +11,7 @@
 	<!--
 	  dark image for -15 degrees and gain 96
 	-->
-	<darkimage stfddevs="4">
+	<darkimage detect_bad_pixels="yes" stddevs="5" interpolate="true">
 	    <fileimage file="image-20241231-00001.fits" name="dark-src-00"/>
 	    <fileimage file="image-20241231-00002.fits" name="dark-src-01"/>
 	    <fileimage file="image-20241231-00003.fits" name="dark-src-02"/>
@@ -30,7 +30,7 @@
 	bias frame for gain 96
     -->
     <writefileimage file="bias.fits" name="bias" src="20250103">
-	<darkimage stddevs="4">
+	<darkimage absolute="100" detect_bad_pixels="yes">
 	    <fileimage file="image-20250103-00201.fits" name="bias-src-00"/>
 	    <fileimage file="image-20250103-00202.fits" name="bias-src-01"/>
 	    <fileimage file="image-20250103-00203.fits" name="bias-src-02"/>

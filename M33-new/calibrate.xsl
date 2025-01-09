@@ -9,9 +9,7 @@
 <xsl:template match="filelist">
 <process dst="./calibrated" src="./repositories/20250103">
     <fileimage name="dark" file="./cal/dark.fits"/>
-<!--
     <fileimage name="flat" file="./cal/flat.fits"/>
--->
     <xsl:apply-templates match="file"/>
 </process>
 </xsl:template>
@@ -20,10 +18,9 @@
 <writefileimage>
     <xsl:attribute name="file"><xsl:value-of
 	select="./@name"/></xsl:attribute>
-    <calibrate dark="dark" demosaic="yes">
-<!--
+    <calibrate dark="dark" demosaic="yes" interpolate="yes"
+	interpolation="bayer">
 	<xsl:attribute name="flat">flat</xsl:attribute>
--->
 	<fileimage>
 	    <xsl:attribute name="file"><xsl:value-of
 		select="./@name"/></xsl:attribute>
